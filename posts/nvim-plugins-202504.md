@@ -58,7 +58,7 @@ It allows you to quickly wrap the close bracket to the next possible position.
 
 > **Here is a demo of the plugin in action, yoinked from the `clasp.nvim` README:**
 
-<video src="https://private-user-images.githubusercontent.com/97848247/415970524-8f09f5ff-00ef-45dd-a76e-a40c8ecd09c1.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDY0MTY3MDQsIm5iZiI6MTc0NjQxNjQwNCwicGF0aCI6Ii85Nzg0ODI0Ny80MTU5NzA1MjQtOGYwOWY1ZmYtMDBlZi00NWRkLWE3NmUtYTQwYzhlY2QwOWMxLm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA1MDUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNTA1VDAzNDAwNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTY1MjcwOTcxYzRlNThhY2Y2ZDA1NzhmZTA3MWYzODQ1MGM3MWM1NjAzYmZhNTA5NDM2M2FmMWI4ZTQ2NzczNjYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.3IVCpiZAMnsqLfxXuPfNi89Ut3NAV-BU2dHLXZK286M" data-canonical-src="https://private-user-images.githubusercontent.com/97848247/415970524-8f09f5ff-00ef-45dd-a76e-a40c8ecd09c1.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDY0MTY3MDQsIm5iZiI6MTc0NjQxNjQwNCwicGF0aCI6Ii85Nzg0ODI0Ny80MTU5NzA1MjQtOGYwOWY1ZmYtMDBlZi00NWRkLWE3NmUtYTQwYzhlY2QwOWMxLm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA1MDUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNTA1VDAzNDAwNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTY1MjcwOTcxYzRlNThhY2Y2ZDA1NzhmZTA3MWYzODQ1MGM3MWM1NjAzYmZhNTA5NDM2M2FmMWI4ZTQ2NzczNjYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.3IVCpiZAMnsqLfxXuPfNi89Ut3NAV-BU2dHLXZK286M" controls="controls" muted="muted" class="d-block rounded-bottom-2 border-top width-fit" style="max-width:640px; min-width: 200px">
+<video src="https://github.com/user-attachments/assets/8f09f5ff-00ef-45dd-a76e-a40c8ecd09c1" controls="controls" muted="muted" class="d-block rounded-bottom-2 border-top width-fit" style="max-width:640px; min-width: 200px">
 </video>
 
 ---
@@ -114,9 +114,11 @@ Out of the box, it supports the following programming languages:
 
 Here is another comparison of before and after in Go:
 
-| Before | After |
-| -------------- | --------------- |
-| ![Before](https://github.com/user-attachments/assets/94ed9b8d-1c81-41b3-b406-2e2340909483) | ![After](https://github.com/user-attachments/assets/12f98543-8794-4128-9e6c-f3b66606ff75) |
+Before:
+![Before](https://github.com/user-attachments/assets/94ed9b8d-1c81-41b3-b406-2e2340909483)
+
+After:
+![After](https://github.com/user-attachments/assets/12f98543-8794-4128-9e6c-f3b66606ff75)
 
 It shows the type of the variable / type in the completion menu. For package names, it shows the package path on the right, which is quite useful when you have multiple packages with the same package name.
 
@@ -149,7 +151,7 @@ This plugin provides a nicer UI for the CSV file, especially when you have a lar
 
 > **Demo from the plugin's README**
 
-<video src="https://private-user-images.githubusercontent.com/55551571/425805246-f529b978-9ae4-4413-b73a-f0fa431c900d.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDY0MjQwMDIsIm5iZiI6MTc0NjQyMzcwMiwicGF0aCI6Ii81NTU1MTU3MS80MjU4MDUyNDYtZjUyOWI5NzgtOWFlNC00NDEzLWI3M2EtZjBmYTQzMWM5MDBkLm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA1MDUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNTA1VDA1NDE0MlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTNkMWJjZmQzZjg5MzA2NDllMDFkMDA3MWE5ZGNiMmIwMjllODJiMDA5NWQ1MTgzZjExY2U3M2I2MDQ4YmY5MjkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.Q9dlmaUYtEGkXq2_btGOVvtktfKglfS6nsT91TkGhTI" data-canonical-src="https://private-user-images.githubusercontent.com/55551571/425805246-f529b978-9ae4-4413-b73a-f0fa431c900d.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDY0MjQwMDIsIm5iZiI6MTc0NjQyMzcwMiwicGF0aCI6Ii81NTU1MTU3MS80MjU4MDUyNDYtZjUyOWI5NzgtOWFlNC00NDEzLWI3M2EtZjBmYTQzMWM5MDBkLm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA1MDUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNTA1VDA1NDE0MlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTNkMWJjZmQzZjg5MzA2NDllMDFkMDA3MWE5ZGNiMmIwMjllODJiMDA5NWQ1MTgzZjExY2U3M2I2MDQ4YmY5MjkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.Q9dlmaUYtEGkXq2_btGOVvtktfKglfS6nsT91TkGhTI" controls="controls" muted="muted" class="d-block rounded-bottom-2 border-top width-fit" style="max-width:640px; min-width: 200px">
+<video src="https://btj93.github.io/nvim-plugins-202504/csvview-nvim.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 border-top width-fit" style="max-width:640px; min-width: 200px">
 </video>
 
 ## [d2-vim](https://github.com/terrastruct/d2-vim)
@@ -375,11 +377,11 @@ And here I swear by [`mini.files`](https://github.com/echasnovski/mini.files)!
 
 `mini.files` is a file manager plugin that is lightweight, fast, and easy to use.
 
-It combines the best of both worlds. Tree-view from a file manager from neo-tree.nvim and vim-like editing from oil.nvim.
+It combines the best of both worlds. Tree-view from a file manager from `neo-tree.nvim` and vim-like editing from `oil.nvim`.
 
 Here is a demo from the plugin's README:
 
-<video src="https://github.com/echasnovski/mini.nvim/assets/24854248/530483a5-fe9a-4e18-9813-a6d609fc89ff">
+<video src="https://github.com/echasnovski/mini.nvim/assets/24854248/530483a5-fe9a-4e18-9813-a6d609fc89ff" controls="controls" muted="muted" class="d-block rounded-bottom-2 border-top width-fit" style="max-width:640px; min-width: 200px">
   </video>
 
 For me, it is the best file manager plugin I have ever used.
@@ -387,7 +389,7 @@ For me, it is the best file manager plugin I have ever used.
 Out of the box, it does not have supports for git files and hidden files, but since it is so flexible, the community has added snippets that you can drop into your config to gain more functionality!
 > Here is the git integration for mini.files:
 
-<script src="https://gist.github.com/bassamsdata/eec0a3065152226581f8d4244cce9051.js"></script>
+[Github Gist](https://gist.github.com/bassamsdata/eec0a3065152226581f8d4244cce9051)
 
 ## [namu.nvim](https://github.com/bassamsdata/namu.nvim)
 
@@ -399,7 +401,7 @@ Out of the box, it does not have supports for git files and hidden files, but si
 - **Built-in fuzzy finding**: search for symbols in your code
 - **Multiple source**: support for multiple sources, such as LSP, Treesitter, and ctags
 
-<video src="https://private-user-images.githubusercontent.com/105807570/435492584-a97ff3b1-8b25-4da1-b276-f623e37d0368.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDY1OTY2ODAsIm5iZiI6MTc0NjU5NjM4MCwicGF0aCI6Ii8xMDU4MDc1NzAvNDM1NDkyNTg0LWE5N2ZmM2IxLThiMjUtNGRhMS1iMjc2LWY2MjNlMzdkMDM2OC5tcDQ_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNTA3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDUwN1QwNTM5NDBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hYWEyOTM5MjgwYzc1OTg4M2ZmNDMzZmZkODRmMDNiMzU5MmI3NThkY2UwZDI1MzA3YWQzZjFlNTdiZTQzODhkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.qgX0Xyvwr3hi1wcXgfu_TvjCzk9gI93NxuDLNFYH74A" data-canonical-src="https://private-user-images.githubusercontent.com/105807570/435492584-a97ff3b1-8b25-4da1-b276-f623e37d0368.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDY1OTY2ODAsIm5iZiI6MTc0NjU5NjM4MCwicGF0aCI6Ii8xMDU4MDc1NzAvNDM1NDkyNTg0LWE5N2ZmM2IxLThiMjUtNGRhMS1iMjc2LWY2MjNlMzdkMDM2OC5tcDQ_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNTA3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDUwN1QwNTM5NDBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hYWEyOTM5MjgwYzc1OTg4M2ZmNDMzZmZkODRmMDNiMzU5MmI3NThkY2UwZDI1MzA3YWQzZjFlNTdiZTQzODhkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.qgX0Xyvwr3hi1wcXgfu_TvjCzk9gI93NxuDLNFYH74A" controls="controls" muted="muted" class="d-block rounded-bottom-2 border-top width-fit" style="max-width:640px; min-width: 200px">
+<video src="https://github.com/user-attachments/assets/a97ff3b1-8b25-4da1-b276-f623e37d0368" controls="controls" muted="muted" class="d-block rounded-bottom-2 border-top width-fit" style="max-width:640px; min-width: 200px">
 
   </video>
 
@@ -420,7 +422,7 @@ nvim-bqf is a plugin that enhance the quickfix list with many features, such as:
 
 > Example from the plugin's README:
 
-<video src="https://private-user-images.githubusercontent.com/17562139/137736502-91d32251-96a2-4c3f-ba74-65cfd336473e.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDY1OTc1MTYsIm5iZiI6MTc0NjU5NzIxNiwicGF0aCI6Ii8xNzU2MjEzOS8xMzc3MzY1MDItOTFkMzIyNTEtOTZhMi00YzNmLWJhNzQtNjVjZmQzMzY0NzNlLm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA1MDclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNTA3VDA1NTMzNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTg3NjM4NzdhZjU1YWE0MmZlYWM3NTc3NDM2NTg1ZjVmMmRkY2Y4NzVhNjc5YWNmZDhhMzg5YTY0NzhiOWY4NTcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.qEg0JD0vEUbz9EClY_YhbDIQz4JKHGPWRkFZec5p0AE" data-canonical-src="https://private-user-images.githubusercontent.com/17562139/137736502-91d32251-96a2-4c3f-ba74-65cfd336473e.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDY1OTc1MTYsIm5iZiI6MTc0NjU5NzIxNiwicGF0aCI6Ii8xNzU2MjEzOS8xMzc3MzY1MDItOTFkMzIyNTEtOTZhMi00YzNmLWJhNzQtNjVjZmQzMzY0NzNlLm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA1MDclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNTA3VDA1NTMzNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTg3NjM4NzdhZjU1YWE0MmZlYWM3NTc3NDM2NTg1ZjVmMmRkY2Y4NzVhNjc5YWNmZDhhMzg5YTY0NzhiOWY4NTcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.qEg0JD0vEUbz9EClY_YhbDIQz4JKHGPWRkFZec5p0AE" controls="controls" muted="muted" class="d-block rounded-bottom-2 border-top width-fit" style="max-height:640px; min-height: 200px">
+<video src="https://user-images.githubusercontent.com/17562139/137736502-91d32251-96a2-4c3f-ba74-65cfd336473e.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 border-top width-fit" style="max-width:640px; min-width: 200px">
 
   </video>
 
@@ -486,7 +488,7 @@ const myVariableName = 10
         ^ cursor here
 ```
 
-Voila! You have moved the cursor by subword motion! Now you can `w` all the way to downtown!
+Voila! You have moved the cursor by subword motion! Now you can *`w` all the way to downtown*!
 
 ![a-thousand-miles](https://btj93.github.io/nvim-plugins-202504/a-thousand-miles.jpg)
 
@@ -494,7 +496,7 @@ Voila! You have moved the cursor by subword motion! Now you can `w` all the way 
 
 ### One little downside
 
-This plugin is not built in mind with non-spaced languages, such as Chinese, Japanese, or Korean.
+This plugin is *not* built in mind with non-spaced languages, such as Chinese, Japanese, or Korean.
 
 It is not a problem when writing code, but if you write documents in markdown in these languages, it would just refuse to work and jump to the next space / end of line.
 
@@ -506,7 +508,7 @@ I haven't found a solution for this yet, but a workaround is to only enable the 
 
 Feeling a little bit fancy today? I've got you covered!
 
-tiny-glimmer.nvim is a plugin that provides various animations for:
+`tiny-glimmer.nvim` is a plugin that provides various animations for:
 
 - Yank
 - Paste
@@ -517,7 +519,7 @@ tiny-glimmer.nvim is a plugin that provides various animations for:
 
 > Example from the plugin's README:
 
-<video src="https://github.com/user-attachments/assets/1bb98834-25d2-4f01-882f-609bec1cbe5c">
+<video src="https://github.com/user-attachments/assets/1bb98834-25d2-4f01-882f-609bec1cbe5c" controls="controls" muted="muted" class="d-block rounded-bottom-2 border-top width-fit" style="max-width:640px; min-width: 200px">
   </video>
 
 Other than the fancy animations, it actually provides virtual cues to help the user find its location.
