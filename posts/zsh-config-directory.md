@@ -4,22 +4,20 @@ date: 2025-05-07
 permalink: /zsh-config-directory
 ---
 
-# Changing the zsh config directory
-
 I've been using zsh for a while now, and I've been using the default config directory for it.
 
 By default, it is located at `~/.zshrc`.
 
 Recently, I want to add some bash script to my zsh config, and I want to keep them in a separate directory for easier git management.
 
-## The problem
+# The problem
 
 When we add a external bash script to our zsh config, it is easy to forget to track it in git, because,
 
 1. the script in the same directory as the zsh config, which is the root directory, and it is cluttered with all sorts of files,
 2. the script is not in the same directory as the zsh config, which makes it hard to track it in git.
 
-## The solution
+# The solution
 
 So I decided to create a new directory for my zsh config, and I'll put the script in there.
 
@@ -48,11 +46,11 @@ export ZDOTDIR=~/.config/zsh
 
 Now, when we start zsh, it will use the new config directory.
 
-### Troubleshooting
+## Troubleshooting
 
 During the process of setting up the new config directory, I encountered a few issues.
 
-#### command not found: `brew`
+### command not found: `brew`
 
 The `~/.config/zsh/.zshrc` file could not find the `brew` command.
 
@@ -62,7 +60,7 @@ I ended up adding the following line to the `~/.config/zsh/.zshrc` file:
 eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
 
-#### Homebrew packages not found
+### Homebrew packages not found
 
 I also encountered a few issues with homebrew packages not being found, even though they are installed.
 
@@ -78,7 +76,7 @@ fpath+=("$(brew --prefix)/share/zsh/site-functions")
 
 That solved the issue.
 
-## Conclusion
+# Conclusion
 
 This is a simple solution to the problem of having a separate config directory for zsh.
 

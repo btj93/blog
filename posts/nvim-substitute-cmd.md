@@ -6,7 +6,7 @@ permalink: /nvim-substitute-command
 
 # Mastering the Substitute Command in Neovim/Vim
 
-The substitute command in Neovim and Vim is an essential tool for efficient text editing. Whether you're coding, writing documentation, or making quick edits, mastering this command can significantly enhance your productivity. In this article, we will explore the syntax of the substitute command, its various options, and practical examples to illustrate its usage.
+The substitute command in Neovim and Vim is an *essential* tool for efficient text editing. Whether you're coding, writing documentation, or making quick edits, mastering this command can significantly enhance your productivity. In this article, we will explore the syntax of the substitute command, its various options, and practical examples to illustrate its usage.
 
 ## Basic Syntax
 

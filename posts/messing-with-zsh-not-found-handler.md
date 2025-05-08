@@ -4,8 +4,6 @@ date: 2025-05-08
 permalink: /zsh-not-found-handler
 ---
 
-# Messing with the zsh not-found handler
-
 Last week, I saw [this post](https://www.reddit.com/r/commandline/comments/1k7ix0h/silly_little_program_for_silly_people/) on reddit, which features a nice chad ASCII art.
 
 ![chadsay](https://preview.redd.it/silly-little-program-for-silly-people-v0-8375wim1yywe1.png?width=640&crop=smart&auto=webp&s=1f6fef2bad70e6d4bdaccd8a0613c8e9a2627ac2)
@@ -16,7 +14,7 @@ I thought it was pretty cool, so of course I decided to try it out.
 
 Then I thought, why not make it a little more useful?
 
-## Zsh not-found handler
+# Zsh not-found handler
 
 An idea came to me, I could make chad say something when the user typed the wrong command.
 
@@ -34,7 +32,7 @@ command_not_found_handler() {
 
 Now we have every piece of the puzzle. It is time to put it all together.
 
-## Chad roasting the user
+# Chad roasting the user
 
 I *"borrowed"* the `chadsay` line from the reddit post.
 
@@ -46,7 +44,7 @@ command_not_found_handler() {
 
 ![chad-roasts](https://btj93.github.io/zsh-not-found-handler/chad-roasts.png)
 
-## More chaos
+# More chaos
 
 To improve the experience, we can create an array of sentences to say, and choose one randomly when the user types a wrong command.
 

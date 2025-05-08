@@ -4,8 +4,6 @@ date: 2025-05-10
 permalink: /vim-g-command
 ---
 
-<https://www.reddit.com/r/neovim/comments/1jy5gyf/how_would_you_go_about_editing_this/>
-
 # Mastering the global Command in Vim
 
 The `global` command in Vim is a powerful tool for executing commands on all lines that match a specific pattern.
@@ -16,7 +14,7 @@ The `global` command has the following syntax:
 :g/pattern/command
 ```
 
-This command allows you to perform various actions, including substitutions, deletions, and more, making it an essential feature for any Vim user. In this article, we will explore the syntax of the `global` command, its various options, and how to chain it with the `substitute` command for efficient text editing.
+This command allows you to perform various actions, including substitutions, deletions, and more, making it an *essential* feature for any Vim user. In this article, we will explore the syntax of the `global` command, its various options, and how to chain it with the `substitute` command for efficient text editing.
 
 ## Basic Syntax
 
@@ -137,6 +135,6 @@ You can use these options to customize how the `global` command behaves. For exa
 
 ## Conclusion
 
-Mastering the `global` command in Vim is essential for efficient text manipulation. By understanding its syntax and options, you can quickly perform actions on all lines that match a specific pattern. Additionally, chaining the `global` command with the `substitute` command allows for powerful text editing capabilities. Practice using these commands to enhance your productivity in Vim.
+Mastering the `global` command in Vim is *essential* for efficient text manipulation. By understanding its syntax and options, you can quickly perform actions on all lines that match a specific pattern. Additionally, chaining the `global` command with the `substitute` command allows for powerful text editing capabilities. Practice using these commands to enhance your productivity in Vim.
 
 Happy editing!
