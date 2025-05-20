@@ -76,6 +76,58 @@ The substitute command also supports regular expressions, allowing for more comp
 :%s/cat\|dog/pet/g
 ```
 
+## Specifying the Search and Replacement Range
+
+In Vim, you can specify the range of lines to search and replace within. This can be done using the `,` symbol:
+
+```
+<start>,<end>s/pattern/replacement/
+```
+
+### Absolute Line Numbers
+
+For example, to replace "foo" with "bar" in lines 2 to 5, you would use:
+
+```
+2,5s/foo/bar/
+```
+
+### Relative Line Numbers
+
+You can also use relative line numbers to specify the range:
+
+```
++2,+5s/foo/bar/
+```
+
+Assuming the current line is line 1, this command will replace "foo" with "bar" in lines 3 to 6.
+
+You can also use the `$` symbol to specify the end of the range:
+
+```
+2,$s/foo/bar/
+```
+
+This command will replace "foo" with "bar" in lines 2 to the end of the file.
+
+The `.` symbol is also useful for selecting the current line:
+
+```
+.,$s/foo/bar/
+```
+
+This command will replace "foo" with "bar" from the current line to the end of the file.
+
+## Selecting the whole word
+
+To match the whole word, you can use the `\<` and `\>` symbols:
+
+```
+:%s/\<foo\>/bar/g
+```
+
+This command will replace "foo" with "bar" in the current line, but not in "foobar".
+
 ## Tips for Effective Use
 
 - **Be cautious with global replacements**: Always double-check your patterns to avoid unintended changes.
